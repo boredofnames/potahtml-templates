@@ -14,6 +14,10 @@ Run a development version using
 
 That should open http://localhost:1339/ on the browser
 
+Run Electron App using
+
+`npm run app`
+
 ### Documentation
 
 - https://pota.quack.uy/

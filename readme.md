@@ -29,6 +29,17 @@ npm install --include=dev
 npm run dev
 ```
 
+### Vite JavaScript Electron
+
+for [vite](https://vitejs.dev/)
+
+```bash
+npx degit potahtml/templates/vite-js-electron pota-vite-js-electon-project
+cd pota-vite-js-electon-project
+npm install --include=dev
+npm run app
+```
+
 ### Vite TypeScript
 
 for [vite](https://vitejs.dev/)
