@@ -1,0 +1,42 @@
+{
+	"name": "pota-template-js",
+	"description": "",
+	"version": "0.0.1",
+	"type": "module",
+	"main": "main.js",
+	"scripts": {
+		"start": "vite",
+		"dev": "vite",
+		"dev-share": "vite --host",
+		"build": "vite build",
+		"serve": "vite preview",
+		"build-electron": "vite build --config ./vite.config.electron.js",
+		"app": "vite build --config ./vite.config.electron.js && electron ."
+	},
+	"devDependencies": {
+		"electron": "^36.2.0",
+		"vite": "^4.4.6",
+		"vite-plugin-babel": "^1.1.3",
+		"vite-plugin-node-polyfills": "^0.23.0",
+		"vite-plugin-node-stdlib-browser": "^0.2.1"
+	},
+	"dependencies": {
+		"electron-context-menu": "^4.0.5",
+		"pota": "^0.17.*"
+	},
+	"prettier": {
+		"printWidth": 70,
+		"useTabs": true,
+		"semi": false,
+		"singleQuote": true,
+		"quoteProps": "as-needed",
+		"jsxSingleQuote": false,
+		"trailingComma": "all",
+		"bracketSpacing": true,
+		"bracketSameLine": false,
+		"arrowParens": "avoid",
+		"proseWrap": "never",
+		"endOfLine": "lf",
+		"embeddedLanguageFormatting": "off"
+	}
+}
